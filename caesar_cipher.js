@@ -85,3 +85,5 @@ class CaesarCipher {
 }
 
 module.exports = CaesarCipher;
+
+console.log("Script ended.");

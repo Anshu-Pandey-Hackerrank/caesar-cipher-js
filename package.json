@@ -4,9 +4,8 @@
     "description": "Caesar Cipher Implementation Challenge",
     "main": "caesar_cipher.js",
     "scripts": {
-      "start": "node -e \"const CaesarCipher = require('./caesar_cipher.js'); console.log('CaesarCipher.up1(\\'HAL\\'): ', CaesarCipher.up1('HAL'));\"",
-      "test": "node caesar_cipher_tests.js",
-      "test:ci": "node test-wrapper.js"
+      "start": "node caesar_cipher.js",
+      "test": "node caesar_cipher_tests.js && node generate_xml.js"
     },
     "dependencies": {
       "readline-sync": "^1.4.10"

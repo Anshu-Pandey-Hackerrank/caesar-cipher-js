@@ -2,16 +2,12 @@ version: 1.0
 configuration:
   has_webserver: false
   scoring:
-    command: |
-      rm -f report.xml && \
-      npm install && \
-      npm run test:ci
+    command: npm test
     files:
       - report.xml
   readonly_paths:
     - caesar_cipher_tests.js
-    - caesar_cipher_more_tests.js
-    - test-wrapper.js
+    - generate_xml.js
     - package.json
   ide_config:
     default_open_files:
@@ -19,4 +15,4 @@ configuration:
     project_menu:
       run: npm start
       install: npm install
-      test: npm run test:ci
+      test: npm run test
