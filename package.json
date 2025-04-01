@@ -1,0 +1,27 @@
+{
+    "name": "caesar-cipher-challenge",
+    "version": "1.0.0",
+    "description": "Caesar Cipher Implementation Challenge",
+    "main": "caesar_cipher.js",
+    "scripts": {
+      "start": "node -e \"const CaesarCipher = require('./caesar_cipher.js'); console.log('CaesarCipher.up1(\\'HAL\\'): ', CaesarCipher.up1('HAL'));\"",
+      "test": "node caesar_cipher_tests.js",
+      "test:ci": "node test-wrapper.js"
+    },
+    "dependencies": {
+      "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "jest-junit": "^16.0.0"
+    },
+    "jest-junit": {
+      "outputDirectory": ".",
+      "outputName": "report.xml",
+      "ancestorSeparator": " › ",
+      "uniqueOutputName": "false",
+      "suiteNameTemplate": "{filepath}",
+      "classNameTemplate": "{classname}",
+      "titleTemplate": "{title}"
+    }
+  }

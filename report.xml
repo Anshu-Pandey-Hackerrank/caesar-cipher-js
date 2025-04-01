@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="5" errors="0" time="0.233">
+  <testsuite name="caesar_cipher_tests.js" errors="0" failures="5" skipped="0" timestamp="2025-04-01T12:24:13" time="0.193" tests="5">
+    <testcase classname="CaesarCipher" name="up1 should convert HAL to IBM" time="0.002">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;IBM&quot;
+Received: &quot;JCN&quot;
+    at Object.toBe (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher_tests.js:5:37)
+    at Promise.then.completed (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="CaesarCipher" name="forward should convert letters correctly" time="0">
+      <failure>TypeError: word.forEach is not a function
+    at CaesarCipher.forEach (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher.js:20:14)
+    at Object.forward (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher_tests.js:10:19)
+    at Promise.then.completed (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="CaesarCipher" name="two_down should convert correctly" time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;RMCDJ&quot;
+Received: &quot;61&apos;(.&quot;
+    at Object.toBe (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher_tests.js:15:38)
+    at Promise.then.completed (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="CaesarCipher" name="twoUp should handle TOEFL" time="0">
+      <failure>TypeError: word.reduce is not a function
+    at Function.reduce [as twoUp] (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher.js:59:21)
+    at Object.twoUp (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher_tests.js:19:25)
+    at Promise.then.completed (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="CaesarCipher" name="backward should convert correctly" time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;ZAB&quot;
+Received: &quot;YYA&quot;
+    at Object.toBe (/Users/anshu/Downloads/caesar-cipher/javascript/caesar_cipher_tests.js:23:42)
+    at Promise.then.completed (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/anshu/Downloads/caesar-cipher/javascript/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
